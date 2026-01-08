@@ -1,3 +1,10 @@
+
+
+.font_inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
 nav{
     max-width:1600px;
     max-height: 92px;
@@ -20,11 +27,21 @@ nav{
     margin: 24px 120px 24px 0;
     width: 164px;
     height: 44px;
-    text-align: center;
+    
+    text-decoration: none;
     border-radius: 4px;
     cursor: pointer;
-    color: #FFFFFF;
     
+    
+}
+.navigation-icon a{
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
 }
 .navigation-links {
     display: flex;
@@ -41,4 +58,104 @@ nav{
     font-weight: 500;
     color: #000000;
 }
+#banner{
+    max-width: 1600px;
+    
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+}
 
+    
+
+.banner-earlyaccess{
+    width: 229px;
+    height: 35px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    
+}
+.container-access a{
+    text-decoration: none;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container-access{
+    display: flex;
+    justify-content: center;
+}
+.banner_h1{
+    font-size: 72px;
+    font-weight: bold ;
+    line-height: 84px;
+}
+.h1_text{
+    display: flex;
+    justify-content: center;
+    
+}
+.h1_text p{
+    margin-top: 16px;
+}
+.text_color{
+    color: #30B868;
+}
+
+
+.pra_text {
+    font-size: 18px;
+    line-height: 84px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pra_text p{
+    margin-top: 16px;
+}
+
+
+.container_box{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+}
+.banner-vault{
+    width: 251px;
+    
+    height: 52px;
+    background-color: #469165;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.banner-vault a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 46px 16px 16px;
+
+
+}
+.banner-works{
+    background: none;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-works a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 16px 16px 46px;
+
+}
+.banner-container{
+    
+    max-width: 1360px;
+    padding: 116px 0 263px 0;
+}
