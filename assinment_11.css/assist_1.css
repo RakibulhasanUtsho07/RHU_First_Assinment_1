@@ -64,42 +64,53 @@ nav{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
 }
-
+.banner-container{
     
-
-.banner-earlyaccess{
-    width: 229px;
-    height: 35px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1000px;
+    max-width:1360px ;
+    max-height: 379px;
+    padding: 116px 0 263px 0;
     
 }
+    
+
+.container-access {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
 .container-access a{
     text-decoration: none;
     color: #469165;
     font-size: 16px;
     font-weight: 500;
-}
-.container-access{
-    display: flex;
+     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 229px;
+    height: 35px;
+    background-color: #FFFFFF;
+    
+    border-radius: 1000px;
 }
+
+    
 .banner_h1{
     font-size: 72px;
     font-weight: bold ;
     line-height: 84px;
-}
-.h1_text{
-    display: flex;
-    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 16px;
     
 }
-.h1_text p{
+.full-pragraph{
     margin-top: 16px;
 }
+
+
+
 .text_color{
     color: #30B868;
 }
@@ -109,29 +120,23 @@ nav{
     font-size: 18px;
     line-height: 84px;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 16px;
+   
+    
     
 }
-.pra_text p{
-    margin-top: 16px;
-}
 
 
-.container_box{
-    display: flex;
-    justify-content: center;
-    gap:16px;
-}
+
+
+
 .banner-vault{
     width: 251px;
-    
-    height: 52px;
-    background-color: #469165;
     display: flex;
     justify-content: center;
-    align-items: center;
+    height: 52px;
+    background-color: #469165;
+    
     border-radius: 4px;
 }
 .banner-vault a{
@@ -141,7 +146,14 @@ nav{
 
 
 }
+.container_box{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
 .banner-works{
+    width: 198px;
     background: none;
     border: 2px solid white;
     display: flex;
@@ -154,8 +166,71 @@ nav{
     padding: 16px 16px 16px 46px;
 
 }
-.banner-container{
+#note{
+    max-width: 1600px;
+    background-color: #FFFFFF;
     
-    max-width: 1360px;
-    padding: 116px 0 263px 0;
 }
+.note_container{
+    mask-composite: 1340px;
+
+    
+}
+.container_head{
+    max-width: 1340px;
+    height: 152px;
+
+    text-align: center;
+    margin: 0 120px 44px 120px;
+
+}
+.head_pra{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.head_h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.container_card{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 120px 0 120px;
+    
+}
+.card{
+    width: 300px;
+    padding: 55px 24px 55px 24px;
+    box-shadow: 0 0 8px #00000049;
+    border-radius: 8px;
+}
+.card img{
+    width: 60px;
+    background-color:#F95555;
+    border-radius: 50%;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #001931;
+}
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+
+
+}
+#brain{
+    margin: 120px;
+}
+.brain_container{
+    display: flex;
+    gap:60px;
+}
+
+
