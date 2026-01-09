@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .font_inter {
   font-family: "Open Sans", sans-serif;
@@ -22,6 +25,10 @@ nav{
     margin: 16px 0 16px 120px;
     
 }
+.navigation-links a:hover{
+    color: #469165;
+
+}
 .navigation-icon{
     background-color: #469165;
     margin: 24px 120px 24px 0;
@@ -33,6 +40,10 @@ nav{
     cursor: pointer;
     
     
+}
+.navigation-icon a:hover{
+    
+    background-color: #627382c5;
 }
 .navigation-icon a{
     padding: 12px 16px 12px 16px;
@@ -76,6 +87,7 @@ nav{
 .container-access {
     display: flex;
     justify-content: center;
+    border: #30B868;
     
     
 }
@@ -93,8 +105,13 @@ nav{
     background-color: #FFFFFF;
     
     border-radius: 1000px;
+    border: 1px solid #30B868;
 }
-
+.container-access a:hover{
+     border: 1px solid #F7F6F2;
+     background-color: #627382;
+     color: #F7F6F2;
+}
     
 .banner_h1{
     font-size: 72px;
@@ -107,6 +124,7 @@ nav{
 }
 .full-pragraph{
     margin-top: 16px;
+    text-align: center;
 }
 
 
@@ -151,6 +169,8 @@ nav{
 
 
 }
+
+
 .container_box{
     display: flex;
     justify-content: center;
@@ -160,7 +180,7 @@ nav{
 .banner-works{
     width: 198px;
     background: none;
-    border: 2px solid white;
+    border:2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +190,10 @@ nav{
     color: #FFFFFF;
     padding: 16px 16px 16px 46px;
 
+}
+.banner-works a:hover{
+    
+    color: #627382;
 }
 #note{
     max-width: 1600px;
@@ -311,7 +335,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin: 0 auto;
+    margin: 16px auto;
     
 }
 .buy_icon a{
