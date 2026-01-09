@@ -203,22 +203,26 @@ nav{
     
 }
 .card{
-    width: 300px;
+    width: 322px;
     padding: 55px 24px 55px 24px;
     box-shadow: 0 0 8px #00000049;
     border-radius: 8px;
 }
 .card img{
-    width: 60px;
+    margin-left:70px ;
+    width: 30px;
     background-color:#F95555;
     border-radius: 50%;
+    padding: 16px;
 }
 .card h3{
+    margin-top: 16px;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: #001931;
 }
 .card p{
+    margin-top:16px;
     font-size: 16px;
     line-height: 20px;
     color:#627382;
@@ -226,11 +230,104 @@ nav{
 
 }
 #brain{
-    margin: 120px;
+    max-width: 1600px;
 }
 .brain_container{
     display: flex;
     gap:60px;
+    margin: 120px ;
 }
+.container_image img{
+    max-width: 600px;
+    max-height: 600px;
+    
+}
+.container_note{
+    
+    
+    padding: 102px auto 102px 0;
 
+}
+.note_solution{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #469165;
+}
+.second_brain{
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.note_knowledge{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.container_note ul li{
+    list-style-image: url(../assets/CheckCircle.png);
+    margin-top: 16px;
+}
+#challange{
+    max-width: 1600px;
+    margin: 120px 120px;
+}
+.challange_container{
+    max-width: 1200px;
+    padding: 80px 40px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+
+}
+.challange_h1{
+    text-align: center;
+}
+.challange_h1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.challange_h1 p{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.buy_icon{
+    width: 194px;
+    height: 52px;
+    background-color: #469165;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    
+}
+.buy_icon a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+footer{
+    background-color: #001931;
+    max-width: 1600px;
+    height: 352px;
+}
+.footer_nav{
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    
+}
+.footer_copyright{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
 
